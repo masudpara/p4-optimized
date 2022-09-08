@@ -752,6 +752,19 @@ h4 {
     margin-top: 50px;
 }
 
+@media (max-width: 768px) {
+    .col-sm-6 {
+        padding-left: 0px;
+        padding-right: 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio-thumb {
+        width: 320px;
+    }
+}
+
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
